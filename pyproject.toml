@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "mo_cloud"
+version = "0.1.0"
+description = ""
+authors = ["despair <alexeymyakinin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+SQLAlchemy = "^1.4.35"
+asyncpg = "^0.25.0"
+fastapi = "^0.75.2"
+databases = "^0.5.5"
+alembic = "^1.7.7"
+uvicorn = "^0.17.6"
+gunicorn = "^20.1.0"
+docker = "^5.0.3"
+psycopg2-binary = "^2.9.3"
+pytest = "^7.1.1"
+
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
